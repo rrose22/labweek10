@@ -41,7 +41,7 @@ export default class UserFormClass extends Component {
     render() {
     return (
         <div>
-            <h1>User Form Class</h1>
+            <h1>Data Entry Form</h1>
             <form onSubmit={(e) => this.onSubmitForm(e)} > 
                     <label for='email'>Email</label>
                     <input 
